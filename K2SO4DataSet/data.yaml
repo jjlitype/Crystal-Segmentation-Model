@@ -1,0 +1,14 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+names:
+  0: bubble
+  1: crystal
+
+roboflow:
+  workspace: crystal-cv331
+  project: crystal-uxaso
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/crystal-cv331/crystal-uxaso/dataset/9
